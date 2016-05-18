@@ -30,7 +30,7 @@ function addCloser() {
 
     $("#results").slideUp(600, function() {
       $("#results").html("");
-    }); // Kill Search results    
+    }); // Kill Search results
 
     $(".searchbox").toggleClass("opened closed", 400, "linear"); // Close it
     $("#tickcross").toggleClass("cross tick", 200, "easeInQuart", function() { //Switch cross to tick
